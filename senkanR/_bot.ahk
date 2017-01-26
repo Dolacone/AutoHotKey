@@ -1,7 +1,6 @@
 #include identify.ahk
 #include explore.ahk
 #include repair.ahk
-#include equipment.ahk
 #include fight.ahk
 
 configFile = config.ini
@@ -15,7 +14,6 @@ Gui, Add, Text, x10 y80, 2
 Gui, Add, Text, x10 y110, 3
 Gui, Add, Text, x10 y140, 4
 Gui, Add, Text, x10 y170, Repair
-Gui, Add, Text, x10 y200, Equip
 Gui, Add, Text, x10 y230, Fight
 
 Gui, Add, Checkbox, x30 y50  vchk_explore_1 
@@ -23,7 +21,6 @@ Gui, Add, Checkbox, x30 y80  vchk_explore_2
 Gui, Add, Checkbox, x30 y110 vchk_explore_3
 Gui, Add, Checkbox, x30 y140 vchk_explore_4
 Gui, Add, Checkbox, x50 y170 vchk_repair
-Gui, Add, Checkbox, x50 y200 vchk_equipment
 Gui, Add, Checkbox, x50 y230 vchk_fight
 Gui, Add, Checkbox, x90 y230 vchk_shutdown
 
@@ -59,8 +56,6 @@ config_save(){
   }
   GuiControlGet, chk_repair_flag,, chk_repair
   IniWrite, %chk_repair_flag%, %configFile%, repair, enable
-  GuiControlGet, chk_equipment_flag,, chk_equipment
-  IniWrite, %chk_equipment_flag%, %configFile%, equipment, enable
   GuiControlGet, chk_fight_flag,, chk_fight
   IniWrite, %chk_fight_flag%, %configFile%, fight, enable
   return
@@ -78,8 +73,6 @@ config_load(){
   }
   IniRead, repair, %configFile%, repair, enable
   GuiControl, , chk_repair, %repair%
-  IniRead, equipment, %configFile%, equipment, enable
-  GuiControl, , chk_equipment, %equipment%
   IniRead, fight, %configFile%, fight, enable
   GuiControl, , chk_fight, %fight%
   Gui, Submit, NoHide
@@ -131,11 +124,7 @@ WheelDown::
   autoClick := false
   return
 
-automation(){
-  if equipment_isInPage(){
-    equipment_remove()
-  }
-    
+automation(){    
   if explore_done(){
     log("explore done")
     
