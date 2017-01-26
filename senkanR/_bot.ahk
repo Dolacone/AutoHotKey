@@ -14,15 +14,15 @@ Gui, Add, Text, x10 y80, 2
 Gui, Add, Text, x10 y110, 3
 Gui, Add, Text, x10 y140, 4
 Gui, Add, Text, x10 y170, Repair
-Gui, Add, Text, x10 y230, Fight
+Gui, Add, Text, x10 y200, Fight
 
 Gui, Add, Checkbox, x30 y50  vchk_explore_1 
 Gui, Add, Checkbox, x30 y80  vchk_explore_2
 Gui, Add, Checkbox, x30 y110 vchk_explore_3
 Gui, Add, Checkbox, x30 y140 vchk_explore_4
 Gui, Add, Checkbox, x50 y170 vchk_repair
-Gui, Add, Checkbox, x50 y230 vchk_fight
-Gui, Add, Checkbox, x90 y230 vchk_shutdown
+Gui, Add, Checkbox, x50 y200 vchk_fight
+Gui, Add, Checkbox, x90 y200 vchk_shutdown
 
 Gui, Add, Edit, x60 y50 w20 vexplore_1_chapter
 Gui, Add, Edit, x60 y80 w20 vexplore_2_chapter
