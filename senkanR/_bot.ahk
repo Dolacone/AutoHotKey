@@ -23,6 +23,9 @@ Gui, Add, Checkbox, x30 y140 vchk_explore_4
 Gui, Add, Checkbox, x50 y170 vchk_repair
 Gui, Add, Checkbox, x50 y200 vchk_fight
 
+Gui, Add, Checkbox, x50 y230 vchk_fight_once
+Gui, Add, Text, x85 y230, once
+
 Gui, Add, Edit, x60 y50 w20 vexplore_1_chapter
 Gui, Add, Edit, x60 y80 w20 vexplore_2_chapter
 Gui, Add, Edit, x60 y110 w20 vexplore_3_chapter
@@ -33,10 +36,10 @@ Gui, Add, Edit, x90 y80 w20 vexplore_2_section
 Gui, Add, Edit, x90 y110 w20 vexplore_3_section
 Gui, Add, Edit, x90 y140 w20 vexplore_4_section
 
-Gui, Add, Text, x10 y260, {WheelUp} = automation
-Gui, Add, Text, x10 y290, {ESC} = reload
+Gui, Add, Text, x10 y290, {WheelUp} = automation
+Gui, Add, Text, x10 y320, {ESC} = reload
 
-Gui, Show, x80 y150 h320 w130,Auto
+Gui, Show, x80 y150 h350 w130,Auto
 Gui, Submit, NoHide
 config_load()
 Return
@@ -57,6 +60,8 @@ config_save(){
   IniWrite, %chk_repair_flag%, %configFile%, repair, enable
   GuiControlGet, chk_fight_flag,, chk_fight
   IniWrite, %chk_fight_flag%, %configFile%, fight, enable
+  GuiControlGet, chk_fight_once_flag,, chk_fight_once
+  IniWrite, %chk_fight_once_flag%, %configFile%, fight, once 
   return
 }
   
@@ -74,6 +79,8 @@ config_load(){
   GuiControl, , chk_repair, %repair%
   IniRead, fight, %configFile%, fight, enable
   GuiControl, , chk_fight, %fight%
+  IniRead, fight_once, %configFile%, fight, once
+  GuiControl, , chk_fight_once, %fight_once%
   Gui, Submit, NoHide
   return
 }

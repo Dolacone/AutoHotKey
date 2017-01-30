@@ -238,11 +238,7 @@ fight_retreat(){
       return false
     }
   
-    if isColorMatch(fight_next_retreat_posX, fight_next_retreat_posY, fight_next_retreat_color){
-      ; force retreat
-      MouseClick, left, fight_next_retreat_posX, fight_next_retreat_posY
-      return false
-    
+    if isColorMatch(fight_next_retreat_posX, fight_next_retreat_posY, fight_next_retreat_color){    
       ; check to retreat
       if isNotColorMatch(fight_next_safe_posX, fight_next_safe_posY, fight_next_safe_color){
         stop_auto_fight()
@@ -252,6 +248,13 @@ fight_retreat(){
         return false
       }
       
+      ; force retreat
+      GuiControlGet, chk_fight_once_flag,, chk_fight_once
+      if(chk_fight_once_flag == 1){
+        MouseClick, left, fight_next_retreat_posX, fight_next_retreat_posY
+        return false
+      }
+
       ; keep going
       MouseClick, left, fight_next_safe_posX, fight_next_safe_posY
       return true
