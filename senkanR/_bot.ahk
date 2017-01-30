@@ -23,6 +23,8 @@ Gui, Add, Checkbox, x30 y140 vchk_explore_4
 Gui, Add, Checkbox, x50 y170 vchk_repair
 Gui, Add, Checkbox, x50 y200 vchk_fight
 
+Gui, Add, DropDownList, x85 y200 h20 w30 vformation r5, 2||2|5
+
 Gui, Add, Checkbox, x50 y230 vchk_fight_once
 Gui, Add, Text, x85 y230, once
 
@@ -60,6 +62,8 @@ config_save(){
   IniWrite, %chk_repair_flag%, %configFile%, repair, enable
   GuiControlGet, chk_fight_flag,, chk_fight
   IniWrite, %chk_fight_flag%, %configFile%, fight, enable
+  GuiControlGet, formation_number,, formation
+  IniWrite, %formation_number%, %configFile%, fight, formation
   GuiControlGet, chk_fight_once_flag,, chk_fight_once
   IniWrite, %chk_fight_once_flag%, %configFile%, fight, once 
   return
@@ -79,6 +83,8 @@ config_load(){
   GuiControl, , chk_repair, %repair%
   IniRead, fight, %configFile%, fight, enable
   GuiControl, , chk_fight, %fight%
+  IniRead, formation, %configFile%, fight, formation
+  GuiControl, , formation, |%formation%||2|5
   IniRead, fight_once, %configFile%, fight, once
   GuiControl, , chk_fight_once, %fight_once%
   Gui, Submit, NoHide
