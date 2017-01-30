@@ -22,7 +22,6 @@ Gui, Add, Checkbox, x30 y110 vchk_explore_3
 Gui, Add, Checkbox, x30 y140 vchk_explore_4
 Gui, Add, Checkbox, x50 y170 vchk_repair
 Gui, Add, Checkbox, x50 y200 vchk_fight
-Gui, Add, Checkbox, x90 y200 vchk_shutdown
 
 Gui, Add, Edit, x60 y50 w20 vexplore_1_chapter
 Gui, Add, Edit, x60 y80 w20 vexplore_2_chapter

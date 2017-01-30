@@ -265,9 +265,4 @@ fight_retreat(){
 
 stop_auto_fight(){
   GuiControl, , chk_fight, 0
-  
-  GuiControlGet, chk_shutdown_flag,, chk_shutdown
-  if (chk_shutdown_flag == 1){
-    Shutdown, 1+4+8
-  }
 }
