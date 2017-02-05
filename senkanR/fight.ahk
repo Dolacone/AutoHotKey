@@ -73,27 +73,13 @@ fight_next_safe_posX = 321
 fight_next_safe_posY = 425
 fight_next_safe_color = 0x2D7CE1
 
-fight_auto_half(){
-  fight_refill()
-  if is_dangerous_in_prep(){
-    stop_auto_fight()
-    return
-  }
-  fight_go()
-  is_in_fight := true
-  while(is_in_fight){
-    is_in_fight := fight_start()
-    if not is_in_fight{
-      break
-    }
-    fight_result()
-    is_in_fight := fight_retreat()
-  }
+fight_auto_select(){
+  fight_page_open()
+  fight_select()
+  fight_auto()
 }
 
 fight_auto(){
-  fight_page_open()
-  fight_select()
   fight_refill()
   if is_dangerous_in_prep(){
     stop_auto_fight()

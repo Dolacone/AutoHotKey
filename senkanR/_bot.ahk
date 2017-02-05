@@ -164,9 +164,9 @@ automation(){
   GuiControlGet, chk_fight_flag,, chk_fight
   if (chk_fight_flag == 1){
     if is_fight_refill_page(){
-      fight_auto_half()
-    }else{
       fight_auto()
+    }else{
+      fight_auto_select()
     }
   }
 }
