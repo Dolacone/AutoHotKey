@@ -5,6 +5,16 @@ tab_fight_posX = 52
 tab_fight_posY = 80
 tab_fight_color = 0x2878DD
 
+page_fight_event_btn_posX = 78
+page_fight_event_btn_posY = 525
+page_fight_event_btn_color = 0x1465EF
+fight_event_select_posX = 808
+fight_event_select_posY = 593
+fight_event_select_color = 0xC39200
+fight_event_select_confirm_posX = 732
+fight_event_select_confirm_posY = 479
+fight_event_select_confirm_color = 0x034BB1
+
 fight_select_posX = 890
 fight_select_posY = 493
 fight_select_color = 0xA0B7C5
@@ -74,8 +84,14 @@ fight_next_safe_posY = 425
 fight_next_safe_color = 0x2D7CE1
 
 fight_auto_select(){
-  fight_page_open()
-  fight_select()
+  GuiControlGet, fight_event_flag,, chk_fight_event
+  if (fight_event_flag){
+    fight_event_page_open()
+    fight_event_page_select()
+  }else{
+    fight_page_open()
+    fight_select()
+  }
   fight_auto()
 }
 
@@ -123,6 +139,32 @@ fight_select(){
   
   waitColor(fight_select_posX, fight_select_posY, fight_select_color)
   MouseClick, left, fight_select_posX, fight_select_posY
+}
+
+fight_event_page_open(){
+  debug("fight event page open")
+  global page_fight_event_btn_posX, page_fight_event_btn_posY, page_fight_event_btn_color
+  global fight_event_select_posX, fight_event_select_posY, fight_event_select_color
+
+  waitColor(page_fight_event_btn_posX, page_fight_event_btn_posY, page_fight_event_btn_color)
+  MouseClick, left, page_fight_event_btn_posX, page_fight_event_btn_posY
+  waitColor(fight_event_select_posX, fight_event_select_posY, fight_event_select_color)
+}
+
+fight_event_page_select(){
+  debug("fight event page select")
+  global fight_event_select_posX, fight_event_select_posY, fight_event_select_color
+  global fight_event_select_confirm_posX, fight_event_select_confirm_posY, fight_event_select_confirm_color
+  
+  GuiControlGet, event_stage_pos,, fight_event_stage_pos
+  StringSplit, event_stage_pos_array, event_stage_pos, `,
+  fight_event_stage_posX := event_stage_pos_array1
+  fight_event_stage_posY := event_stage_pos_array2
+  
+  waitColor(fight_event_select_posX, fight_event_select_posY, fight_event_select_color)
+  MouseClick, left, fight_event_stage_posX, fight_event_stage_posY
+  waitColor(fight_event_select_confirm_posX, fight_event_select_confirm_posY, fight_event_select_confirm_color)
+  MouseClick, left, fight_event_select_confirm_posX, fight_event_select_confirm_posY
 }
 
 fight_refill(){

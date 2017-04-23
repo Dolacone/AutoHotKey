@@ -1,4 +1,4 @@
-#include identify.ahk
+﻿#include identify.ahk
 #include explore.ahk
 #include repair.ahk
 #include fight.ahk
@@ -28,6 +28,10 @@ Gui, Add, DropDownList, x85 y200 h20 w30 vformation r5, 2||2|5
 Gui, Add, Checkbox, x50 y230 vchk_fight_once
 Gui, Add, Text, x85 y230, once
 
+Gui, Add, Button, x5 y255 gset_fight_event_stage_pos, Event
+Gui, Add, Checkbox, x50 y260 vchk_fight_event
+Gui, Add, Edit, x85 y260 w50 vfight_event_stage_pos
+
 Gui, Add, Edit, x60 y50 w20 vexplore_1_chapter
 Gui, Add, Edit, x60 y80 w20 vexplore_2_chapter
 Gui, Add, Edit, x60 y110 w20 vexplore_3_chapter
@@ -41,7 +45,7 @@ Gui, Add, Edit, x90 y140 w20 vexplore_4_section
 Gui, Add, Text, x10 y290, {WheelUp} = automation
 Gui, Add, Text, x10 y320, {ESC} = reload
 
-Gui, Show, x80 y150 h350 w130,Auto
+Gui, Show, x80 y150 h350 w140,Auto
 Gui, Submit, NoHide
 config_load()
 Return
@@ -66,6 +70,10 @@ config_save(){
   IniWrite, %formation_number%, %configFile%, fight, formation
   GuiControlGet, chk_fight_once_flag,, chk_fight_once
   IniWrite, %chk_fight_once_flag%, %configFile%, fight, once 
+  GuiControlGet, chk_fight_event_flag,, chk_fight_event
+  IniWrite, %chk_fight_event_flag%, %configFile%, fight, event
+  GuiControlGet, event_pos,, fight_event_stage_pos
+  IniWrite, %event_pos%, %configFile%, fight, pos
   return
 }
   
@@ -87,6 +95,10 @@ config_load(){
   GuiControl, , formation, |%formation%||2|5
   IniRead, fight_once, %configFile%, fight, once
   GuiControl, , chk_fight_once, %fight_once%
+  IniRead, fight_event, %configFile%, fight, event
+  GuiControl, , chk_fight_event, %fight_event%
+  IniRead, event_pos, %configFile%, fight, pos
+  GuiControl, , fight_event_stage_pos, %event_pos%
   Gui, Submit, NoHide
   return
 }
@@ -113,12 +125,13 @@ debug(text){
   return
   
 z::
-  if is_dangerous_in_prep(){
-    msgbox aa
-  }
+  GuiControlGet, event_stage_pos,, fight_event_stage_pos
+  StringSplit, event_stage_pos_array, event_stage_pos, `,
+  msgbox, "out" %event_stage_pos_array1%
   return
 
 WheelUp::
+  WinActivate 戦艦少女R
   global autoClick
   autoClick := true
   config_save()
@@ -169,6 +182,16 @@ automation(){
       fight_auto_select()
     }
   }
+}
+
+set_fight_event_stage_pos(){
+  WinActivate 戦艦少女R
+  debug("R Click to set pos")
+  KeyWait, LButton, D
+  MouseGetPos, x, y
+  string = %x%,%y%
+  GuiControl, , fight_event_stage_pos, %string%
+  Gui, Submit, NoHide
 }
 
 log(logString){
