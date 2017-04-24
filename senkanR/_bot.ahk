@@ -2,6 +2,7 @@
 #include explore.ahk
 #include repair.ahk
 #include fight.ahk
+#include practice.ahk
 
 configFile = config.ini
 
@@ -125,9 +126,7 @@ debug(text){
   return
   
 z::
-  GuiControlGet, event_stage_pos,, fight_event_stage_pos
-  StringSplit, event_stage_pos_array, event_stage_pos, `,
-  msgbox, "out" %event_stage_pos_array1%
+  select_practice_target()
   return
 
 WheelUp::
@@ -176,6 +175,9 @@ automation(){
   
   GuiControlGet, chk_fight_flag,, chk_fight
   if (chk_fight_flag == 1){
+    if is_practice_page(){
+      practice_auto()
+    }
     if is_fight_refill_page(){
       fight_auto()
     }else{

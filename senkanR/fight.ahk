@@ -49,6 +49,7 @@ fight_itemPoint_color = 0xF0CB43
 fight_start_enemyConfirm_posX = 719
 fight_start_enemyConfirm_posY = 512
 fight_start_enemyConfirm_color = 0x3481E6
+fight_start_enemyConfirm_color_practice = 0x074EA8
 fight_start_formation_2_posX = 883  ; 2nd formation
 fight_start_formation_2_posY = 217  ; 2nd formation
 fight_start_formation_2_color = 0xCCCCCC  ; 2nd formation
@@ -189,7 +190,7 @@ fight_go(){
 fight_start(){
   debug("fight_start")
   global fight_itemPoint_posX, fight_itemPoint_posY, fight_itemPoint_color
-  global fight_start_enemyConfirm_posX, fight_start_enemyConfirm_posY, fight_start_enemyConfirm_color
+  global fight_start_enemyConfirm_posX, fight_start_enemyConfirm_posY, fight_start_enemyConfirm_color, fight_start_enemyConfirm_color_practice
   global fight_start_formation_2_posX, fight_start_formation_2_posY, fight_start_formation_2_color
   global fight_start_formation_5_posX, fight_start_formation_5_posY, fight_start_formation_5_color
   GuiControlGet, formation_number,, formation
@@ -202,6 +203,9 @@ fight_start(){
     
     ; encounter
     if isColorMatch(fight_start_enemyConfirm_posX, fight_start_enemyConfirm_posY, fight_start_enemyConfirm_color){
+      MouseClick, left, fight_start_enemyConfirm_posX, fight_start_enemyConfirm_posY
+    }
+    if isColorMatch(fight_start_enemyConfirm_posX, fight_start_enemyConfirm_posY, fight_start_enemyConfirm_color_practice){
       MouseClick, left, fight_start_enemyConfirm_posX, fight_start_enemyConfirm_posY
     }
     if isColorMatch(fight_start_formation_%formation_number%_posX, fight_start_formation_%formation_number%_posY, fight_start_formation_%formation_number%_color){
@@ -251,6 +255,9 @@ fight_result(){
       break
     }
     if isPageHome(){
+      break
+    }
+    if is_practice_page(){
       break
     }
   }
