@@ -230,10 +230,19 @@ fight_result(){
   global fight_next_retreat_posX, fight_next_retreat_posY, fight_next_retreat_color
   
   while(true){
+    ; night fight
     if isColorMatch(fight_night_posX, fight_night_posY, fight_night_color){
       sleep, 1000
-      MouseClick, left, fight_night_posX, fight_night_posY
+      
+      GuiControlGet, chk_night_fight_flag,, chk_night_fight
+      if(chk_night_fight_flag == 1){
+        MouseClick, left, 329, 422
+      }else{
+        MouseClick, left, fight_night_posX, fight_night_posY
+      }
     }
+    
+    ; fight end
     if isColorMatch(fight_end_result_posX, fight_end_result_posY, fight_end_result_color){
       sleep, 1000
       MouseClick, left, fight_end_result_posX, fight_end_result_posY
@@ -258,6 +267,9 @@ fight_result(){
       break
     }
     if is_practice_page(){
+      break
+    }
+    if is_campaign_page(){
       break
     }
   }

@@ -3,6 +3,7 @@
 #include repair.ahk
 #include fight.ahk
 #include practice.ahk
+#include campaign.ahk
 
 configFile = config.ini
 
@@ -26,12 +27,15 @@ Gui, Add, Checkbox, x50 y200 vchk_fight
 
 Gui, Add, DropDownList, x85 y200 h20 w30 vformation r5, 2||2|5
 
-Gui, Add, Checkbox, x50 y230 vchk_fight_once
-Gui, Add, Text, x85 y230, once
+Gui, Add, Checkbox, x50 y230 vchk_night_fight
+Gui, Add, Text, x85 y230, night fight
 
-Gui, Add, Button, x5 y255 gset_fight_event_stage_pos, Event
-Gui, Add, Checkbox, x50 y260 vchk_fight_event
-Gui, Add, Edit, x85 y260 w50 vfight_event_stage_pos
+Gui, Add, Checkbox, x50 y260 vchk_fight_once
+Gui, Add, Text, x85 y260, one step
+
+Gui, Add, Button, x5 y285 gset_fight_event_stage_pos, Event
+Gui, Add, Checkbox, x50 y290 vchk_fight_event
+Gui, Add, Edit, x85 y290 w50 vfight_event_stage_pos
 
 Gui, Add, Edit, x60 y50 w20 vexplore_1_chapter
 Gui, Add, Edit, x60 y80 w20 vexplore_2_chapter
@@ -43,10 +47,10 @@ Gui, Add, Edit, x90 y80 w20 vexplore_2_section
 Gui, Add, Edit, x90 y110 w20 vexplore_3_section
 Gui, Add, Edit, x90 y140 w20 vexplore_4_section
 
-Gui, Add, Text, x10 y290, {WheelUp} = automation
-Gui, Add, Text, x10 y320, {ESC} = reload
+Gui, Add, Text, x10 y320, {WheelUp} = automation
+Gui, Add, Text, x10 y350, {ESC} = reload
 
-Gui, Show, x80 y150 h350 w140,Auto
+Gui, Show, x80 y150 h380 w140,Auto
 Gui, Submit, NoHide
 config_load()
 Return
@@ -177,6 +181,9 @@ automation(){
   if (chk_fight_flag == 1){
     if is_practice_page(){
       practice_auto()
+    }
+    if is_campaign_page(){
+      campaign_auto()
     }
     if is_fight_refill_page(){
       fight_auto()
