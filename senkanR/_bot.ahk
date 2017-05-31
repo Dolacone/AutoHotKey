@@ -27,8 +27,8 @@ Gui, Add, Checkbox, x50 y200 vchk_fight
 
 Gui, Add, DropDownList, x85 y200 h20 w30 vformation r5, 2||2|5
 
-Gui, Add, Checkbox, x50 y230 vchk_night_fight
-Gui, Add, Text, x85 y230, night fight
+Gui, Add, Text, x10 y230, Night
+Gui, Add, DropDownList, x50 y230 h20 w70 vnight_fight r5, no||no|force|last
 
 Gui, Add, Checkbox, x50 y260 vchk_fight_once
 Gui, Add, Text, x85 y260, one step
@@ -73,6 +73,8 @@ config_save(){
   IniWrite, %chk_fight_flag%, %configFile%, fight, enable
   GuiControlGet, formation_number,, formation
   IniWrite, %formation_number%, %configFile%, fight, formation
+  GuiControlGet, night_fight_mode,, night_fight
+  IniWrite, %night_fight_mode%, %configFile%, fight, night_fight
   GuiControlGet, chk_fight_once_flag,, chk_fight_once
   IniWrite, %chk_fight_once_flag%, %configFile%, fight, once 
   GuiControlGet, chk_fight_event_flag,, chk_fight_event
@@ -98,6 +100,8 @@ config_load(){
   GuiControl, , chk_fight, %fight%
   IniRead, formation, %configFile%, fight, formation
   GuiControl, , formation, |%formation%||2|5
+  IniRead, night_fight_mode, %configFile%, fight, night_fight
+  GuiControl, , night_fight, |%night_fight_mode%||no|force|last
   IniRead, fight_once, %configFile%, fight, once
   GuiControl, , chk_fight_once, %fight_once%
   IniRead, fight_event, %configFile%, fight, event
@@ -130,7 +134,7 @@ debug(text){
   return
   
 z::
-  select_practice_target()
+  fight_result()
   return
 
 WheelUp::

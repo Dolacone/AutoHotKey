@@ -60,6 +60,9 @@ fight_start_formation_5_color = 0xA4A4A4  ; 5th formation
 fight_night_posX = 631
 fight_night_posY = 421
 fight_night_color = 0xF0CB43
+fight_night_last_posX = 397
+fight_night_last_posY = 317
+fight_night_last_color = 0x0B0BBE
 
 fight_end_result_posX = 713
 fight_end_result_posY = 523
@@ -234,9 +237,16 @@ fight_result(){
     if isColorMatch(fight_night_posX, fight_night_posY, fight_night_color){
       sleep, 1000
       
-      GuiControlGet, chk_night_fight_flag,, chk_night_fight
-      if(chk_night_fight_flag == 1){
+      GuiControlGet, night_fight_mode,, night_fight
+      if(night_fight_mode == "force"){
         MouseClick, left, 329, 422
+      }else if (night_fight_mode == "last"){
+        global fight_night_last_posX, fight_night_last_posY, fight_night_last_color
+        if isColorMatch(fight_night_last_posX, fight_night_last_posY, fight_night_last_color){
+          MouseClick, left, 329, 422
+        }else{
+          MouseClick, left, fight_night_posX, fight_night_posY
+        }
       }else{
         MouseClick, left, fight_night_posX, fight_night_posY
       }
