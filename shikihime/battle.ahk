@@ -31,6 +31,9 @@ battle_show_btn_color = 0x0D6C97
 battle_enemy_skill_posX = 635
 battle_enemy_skill_posY = 103
 battle_enemy_skill_color = 0xEA75B4
+battle_enemy_attack_posX = 736
+battle_enemy_attack_posY = 76
+battle_enemy_attack_color = 0xFFB5E8
 
 battle_result_btn_next_posX = 841
 battle_result_btn_next_posY = 678
@@ -98,7 +101,7 @@ battle_loop(){
         cooldown := 18000
         while is_hide_available(){
             if not is_in_battle(){
-                break
+                return
             }
             battle_hide()
             sleep 1000
@@ -110,12 +113,11 @@ battle_loop(){
         if (cooldown > 0){
             sleep %cooldown%
         }
-        while is_show_available(){
-            if not is_enemy_casting(){
-                battle_show()
-                sleep 1000
-            }
+        if not is_in_battle(){
+            return
         }
+        wait_enemy_attack()
+        battle_show()
         battle_use_skills()        
     }
 }
@@ -141,9 +143,28 @@ is_show_available(){
     return false
 }
 
+wait_enemy_attack(){
+    while (not is_enemy_attacking()){
+        sleep 50
+        if not is_in_battle(){
+            return
+        }
+
+    }
+}
+
 battle_show(){
     global battle_show_btn_posX, battle_show_btn_posY, battle_show_btn_color
     MouseClick, left, battle_show_btn_posX, battle_show_btn_posY
+    wait_not_color(battle_show_btn_posX, battle_show_btn_posY, battle_show_btn_color)
+}
+
+is_enemy_attacking(){
+    global battle_enemy_attack_posX, battle_enemy_attack_posY, battle_enemy_attack_color
+    if is_color_match(battle_enemy_attack_posX, battle_enemy_attack_posY, battle_enemy_attack_color){
+        return true
+    }
+    return false
 }
 
 is_enemy_casting(){
