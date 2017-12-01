@@ -22,6 +22,7 @@ practice_auto(){
   while(true){
     wait_practice_page()
     select_practice_target()
+    select_team()
     fight_refill()
     fight_go()
     fight_start()

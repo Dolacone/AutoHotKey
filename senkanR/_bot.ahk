@@ -25,6 +25,7 @@ Gui, Add, Checkbox, x30 y140 vchk_explore_4
 Gui, Add, Checkbox, x50 y170 vchk_repair
 Gui, Add, Checkbox, x50 y200 vchk_fight
 
+Gui, Add, DropDownList, x85 y170 h20 w30 vteam r5, 1||1|2|3|4
 Gui, Add, DropDownList, x85 y200 h20 w30 vformation r5, 2||2|5
 
 Gui, Add, Text, x10 y230, Night
@@ -71,6 +72,8 @@ config_save(){
   IniWrite, %chk_repair_flag%, %configFile%, repair, enable
   GuiControlGet, chk_fight_flag,, chk_fight
   IniWrite, %chk_fight_flag%, %configFile%, fight, enable
+  GuiControlGet, team_number,, team
+  IniWrite, %team_number%, %configFile%, fight, team
   GuiControlGet, formation_number,, formation
   IniWrite, %formation_number%, %configFile%, fight, formation
   GuiControlGet, night_fight_mode,, night_fight
@@ -98,6 +101,8 @@ config_load(){
   GuiControl, , chk_repair, %repair%
   IniRead, fight, %configFile%, fight, enable
   GuiControl, , chk_fight, %fight%
+  IniRead, team, %configFile%, fight, team
+  GuiControl, , team, |%team%||1|2|3|4
   IniRead, formation, %configFile%, fight, formation
   GuiControl, , formation, |%formation%||2|5
   IniRead, night_fight_mode, %configFile%, fight, night_fight
@@ -116,6 +121,7 @@ GuiClose:
   ExitApp
 
 Escape::
+WheelDown::
   config_save()
   reload
   return
@@ -139,6 +145,7 @@ z::
 
 WheelUp::
   WinActivate 戦艦少女R
+  start_auto_fight()
   global autoClick
   autoClick := true
   config_save()
@@ -149,11 +156,6 @@ WheelUp::
     sleep 2000
   }
   status("stopped")
-  return
-  
-WheelDown::
-  global autoClick
-  autoClick := false
   return
 
 automation(){    

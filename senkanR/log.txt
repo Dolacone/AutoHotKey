@@ -1,0 +1,1929 @@
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+section: 4 complete
+explore_result_collect @ 4
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+section: 4 complete
+explore_result_collect @ 4
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+explore done
+explore_result
+explore_prep
+explore done
+explore_result
+explore_prep
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0x1F73DA
+section: 4 complete
+explore_result_collect @ 4
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+explore_result done
+explore done
+explore_result
+explore_prep
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 3
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+section: 4 complete
+explore_result_collect @ 4
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0x1F74DA
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+section: 4 complete
+explore_result_collect @ 4
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+explore_result done
+explore done
+explore_result
+explore_prep
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+section 3 @ 762,344 = 0x9FB6C4
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore done
+explore_result
+explore_prep
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+section: 4 complete
+explore_result_collect @ 4
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+explore_result done
+explore done
+explore_result
+explore_prep
+explore done
+explore_result
+explore_prep
+explore done
+explore_result
+explore_prep
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+explore_section_isComplete - 2
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 2 @ 762,231 = 0xE9C13C
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0xE9C13C
+explore_result_collect @ 0
+explore_section_isComplete - 0
+section 0 @ , = 0xFFFFFF
+section 0 (,) is not completed
+explore_result done
+explore done
+explore_result
+explore_prep
+explore_section_isComplete - 1
+section 1 @ 762,119 = 0xE8C03B
+explore_section_isComplete - 2
+explore_section_isComplete - 3
+section 3 @ 762,344 = 0xE8C03B
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+section: 4 complete
+explore_result_collect @ 4
+explore_section_isComplete - 4
+section 4 @ 762,456 = 0x1F73DA
+explore_result done

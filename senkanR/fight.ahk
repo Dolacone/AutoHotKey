@@ -7,7 +7,7 @@ tab_fight_color = 0x2878DD
 
 page_fight_event_btn_posX = 78
 page_fight_event_btn_posY = 525
-page_fight_event_btn_color = 0x1465EF
+page_fight_event_btn_color = 0x4E565B
 fight_event_select_posX = 808
 fight_event_select_posY = 593
 fight_event_select_color = 0xC39200
@@ -18,6 +18,15 @@ fight_event_select_confirm_color = 0x034BB1
 fight_select_posX = 890
 fight_select_posY = 493
 fight_select_color = 0xA0B7C5
+
+fight_prep_team1_posX = 355
+fight_prep_team1_posY = 415
+fight_prep_team2_posX = 450
+fight_prep_team2_posY = 415
+fight_prep_team3_posX = 550
+fight_prep_team3_posY = 415
+fight_prep_team4_posX = 650
+fight_prep_team4_posY = 415
 
 fight_prep_unit_dangerous_color = 0x8399A7
 fight_prep_unit1_posX = 256
@@ -49,7 +58,7 @@ fight_itemPoint_color = 0xF0CB43
 fight_start_enemyConfirm_posX = 719
 fight_start_enemyConfirm_posY = 512
 fight_start_enemyConfirm_color = 0x3481E6
-fight_start_enemyConfirm_color_practice = 0x074EA8
+fight_start_enemyConfirm_color_practice = 0x303336
 fight_start_formation_2_posX = 883  ; 2nd formation
 fight_start_formation_2_posY = 217  ; 2nd formation
 fight_start_formation_2_color = 0xCCCCCC  ; 2nd formation
@@ -100,6 +109,7 @@ fight_auto_select(){
 }
 
 fight_auto(){
+  select_team()
   fight_refill()
   if is_dangerous_in_prep(){
     stop_auto_fight()
@@ -169,6 +179,19 @@ fight_event_page_select(){
   MouseClick, left, fight_event_stage_posX, fight_event_stage_posY
   waitColor(fight_event_select_confirm_posX, fight_event_select_confirm_posY, fight_event_select_confirm_color)
   MouseClick, left, fight_event_select_confirm_posX, fight_event_select_confirm_posY
+}
+
+select_team(){
+  debug("select team")
+  global fight_prep_refill_posX, fight_prep_refill_posY, fight_prep_refill_color
+  global fight_prep_team1_posX, fight_prep_team1_posY
+  global fight_prep_team2_posX, fight_prep_team2_posY
+  global fight_prep_team3_posX, fight_prep_team3_posY
+  global fight_prep_team4_posX, fight_prep_team4_posY
+  GuiControlGet, team_number,, team
+  
+  waitColor(fight_prep_refill_posX, fight_prep_refill_posY, fight_prep_refill_color)
+  MouseClick, left, fight_prep_team%team_number%_posX, fight_prep_team%team_number%_posY
 }
 
 fight_refill(){
@@ -323,6 +346,10 @@ fight_retreat(){
       return false
     }
   }
+}
+
+start_auto_fight(){
+  GuiControl, , chk_fight, 1
 }
 
 stop_auto_fight(){
