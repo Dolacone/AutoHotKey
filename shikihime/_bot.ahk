@@ -33,7 +33,7 @@ WheelUp::
   status("automation start")
   while (true){
     automation()
-    sleep 1000
+    sleep 500
   }
   return
 

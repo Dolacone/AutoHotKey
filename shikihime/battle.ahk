@@ -155,7 +155,9 @@ is_enemy_casting(){
 }
 
 battle_use_skills(){
-    delay := 100
+    delay := 50
+    sleep 200
+    
     ; skill 9
     MouseClick, left, 1200, 700
     sleep %delay%
