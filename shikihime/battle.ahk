@@ -103,12 +103,15 @@ battle_loop(){
             battle_hide()
             sleep 1000
             cooldown := cooldown - 1000
+            debug(cooldown)
             if (cooldown <= 0){
                 break
             }
         }
-        if (cooldown > 0){
-            sleep %cooldown%
+        while (cooldown > 0){
+            debug(cooldown)
+            sleep 1000
+            cooldown := cooldown - 1000
         }
         while is_show_available(){
             if not is_enemy_casting(){
