@@ -24,7 +24,7 @@ Gui, Add, Text, x10 y160, Wait
 Gui, Add, Edit, x50 y160 w80 vcd_time, 1800
 
 Gui, Add, Text, x10 y190, Wait enemy
-Gui, Add, Checkbox, x90 y190 vwait_enemy_action
+Gui, Add, Checkbox, x90 y190 vwait_enemy_attack
 
 Gui, Add, Text, x10 y320, {WheelUp} = automation
 Gui, Add, Text, x10 y350, {ESC} = reload
@@ -54,7 +54,7 @@ WheelUp::
   status("automation start")
   while (true){
     automation()
-    sleep 1000
+    sleep 500
   }
   return
   
@@ -67,6 +67,7 @@ WheelUp::
 7::trigger_checkbox_skill(7)
 8::trigger_checkbox_skill(8)
 9::trigger_checkbox_skill(9)
+0::trigger_checkbox_wait_enemy_attack()
   
 trigger_checkbox_skill(index){
     GuiControlGet, flag_skill, , chk_skill_%index%
@@ -74,6 +75,16 @@ trigger_checkbox_skill(index){
         GuiControl, , chk_skill_%index%, 0
     }else{
         GuiControl, , chk_skill_%index%, 1
+    }
+    Gui, Submit, NoHide
+}
+
+trigger_checkbox_wait_enemy_attack(){
+    GuiControlGet, flag_wait_enemy_attack, , wait_enemy_attack
+    if(flag_wait_enemy_attack){
+        GuiControl, , wait_enemy_attack, 0
+    }else{
+        GuiControl, , wait_enemy_attack, 1
     }
     Gui, Submit, NoHide
 }
