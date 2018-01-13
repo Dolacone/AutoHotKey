@@ -184,12 +184,12 @@ is_enemy_casting(){
 
 battle_use_skills(){
     loop, 9{
+        sleep 100
         index := 10 - A_Index
         GuiControlGet, flag_skill, , chk_skill_%index%
         if (flag_skill){
             mouse_pos_x := 80 + 140 * (index - 1)
             MouseClick, left, mouse_pos_x, 700
-            sleep 100
         }
     }
 }
