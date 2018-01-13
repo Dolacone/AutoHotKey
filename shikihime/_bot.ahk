@@ -57,6 +57,26 @@ WheelUp::
     sleep 1000
   }
   return
+  
+1::trigger_checkbox_skill(1)
+2::trigger_checkbox_skill(2)
+3::trigger_checkbox_skill(3)
+4::trigger_checkbox_skill(4)
+5::trigger_checkbox_skill(5)
+6::trigger_checkbox_skill(6)
+7::trigger_checkbox_skill(7)
+8::trigger_checkbox_skill(8)
+9::trigger_checkbox_skill(9)
+  
+trigger_checkbox_skill(index){
+    GuiControlGet, flag_skill, , chk_skill_%index%
+    if(flag_skill){
+        GuiControl, , chk_skill_%index%, 0
+    }else{
+        GuiControl, , chk_skill_%index%, 1
+    }
+    Gui, Submit, NoHide
+}
 
 automation(){
     if is_home(){
