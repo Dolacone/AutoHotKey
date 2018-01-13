@@ -155,34 +155,15 @@ is_enemy_casting(){
 }
 
 battle_use_skills(){
-    delay := 100
-    ; skill 9
-    MouseClick, left, 1200, 700
-    sleep %delay%
-    ; skill 6
-    MouseClick, left, 780, 700
-    sleep %delay%
-    ; skill 3
-    MouseClick, left, 360, 700
-    sleep %delay%
-    ; skill 8
-    MouseClick, left, 1060, 700
-    sleep %delay%
-    ; skill 5
-    MouseClick, left, 640, 700
-    sleep %delay%
-    ; skill 2
-    MouseClick, left, 220, 700
-    sleep %delay%
-    ; skill 7
-    MouseClick, left, 920, 700
-    sleep %delay%
-    ; skill 4
-    MouseClick, left, 500, 700
-    sleep %delay%
-    ; skill 1
-    MouseClick, left, 80, 700    
-    sleep %delay%
+    loop, 9{
+        index := 10 - A_Index
+        GuiControlGet, flag_skill, , chk_skill_%index%
+        if (flag_skill){
+            mouse_pos_x := 80 + 140 * (index - 1)
+            MouseClick, left, mouse_pos_x, 700
+            sleep 100
+        }
+    }
 }
 
 is_in_result(){

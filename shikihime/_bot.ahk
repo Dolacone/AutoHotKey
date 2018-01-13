@@ -5,6 +5,27 @@ Gui, +AlwaysOnTop
 Gui, Add, Text,   x0  y0 w170 vtext_status, stopped
 Gui, Add, Text,   x0  y20 w170 vtext_debug, debug
 
+Gui, Add, Text,     x10 y70, Unit1
+Gui, Add, Checkbox, x45 y70 vchk_skill_1 checked
+Gui, Add, Checkbox, x80 y70 vchk_skill_2 checked
+Gui, Add, Checkbox, x115 y70 vchk_skill_3 checked
+
+Gui, Add, Text,     x10 y100, Unit2
+Gui, Add, Checkbox, x45 y100 vchk_skill_4 checked
+Gui, Add, Checkbox, x80 y100 vchk_skill_5 checked
+Gui, Add, Checkbox, x115 y100 vchk_skill_6 checked
+
+Gui, Add, Text,     x10 y130, Unit3
+Gui, Add, Checkbox, x45 y130 vchk_skill_7 checked
+Gui, Add, Checkbox, x80 y130 vchk_skill_8 checked
+Gui, Add, Checkbox, x115 y130 vchk_skill_9 checked
+
+Gui, Add, Text, x10 y160, Wait
+Gui, Add, Edit, x50 y160 w80 vcd_time, 1800
+
+Gui, Add, Text, x10 y190, Wait enemy
+Gui, Add, Checkbox, x90 y190 vwait_enemy_action
+
 Gui, Add, Text, x10 y320, {WheelUp} = automation
 Gui, Add, Text, x10 y350, {ESC} = reload
 
@@ -19,7 +40,7 @@ Escape::
 WheelDown::
   reload
   return
-
+  
 status(text){
   GuiControl, , text_status, %text%
 }
