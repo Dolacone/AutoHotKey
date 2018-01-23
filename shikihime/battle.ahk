@@ -98,7 +98,7 @@ is_in_battle(){
 
 battle_loop(){
     if is_hide_available(){
-        cooldown := 18000
+        GuiControlGet, cooldown, , wait_time
         while is_hide_available(){
             if not is_in_battle(){
                 return

@@ -21,7 +21,7 @@ Gui, Add, Checkbox, x80 y130 vchk_skill_8 checked
 Gui, Add, Checkbox, x115 y130 vchk_skill_9 checked
 
 Gui, Add, Text, x10 y160, Wait
-Gui, Add, Edit, x50 y160 w80 vcd_time, 1800
+Gui, Add, Edit, x50 y160 w80 vwait_time, 18000
 
 Gui, Add, Text, x10 y190, Wait enemy
 Gui, Add, Checkbox, x90 y190 vwait_enemy_attack
