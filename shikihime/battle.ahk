@@ -183,15 +183,25 @@ is_enemy_casting(){
 }
 
 battle_use_skills(){
-    loop, 9{
-        sleep 100
-        index := 10 - A_Index
-        GuiControlGet, flag_skill, , chk_skill_%index%
-        if (flag_skill){
-            mouse_pos_x := 80 + 140 * (index - 1)
-            MouseClick, left, mouse_pos_x, 700
-        }
+    sleep 1000
+    battle_use_skill(9)
+    battle_use_skill(6)
+    battle_use_skill(3)
+    battle_use_skill(8)
+    battle_use_skill(5)
+    battle_use_skill(2)
+    battle_use_skill(7)
+    battle_use_skill(4)
+    battle_use_skill(1)
+}
+
+battle_use_skill(index){
+    GuiControlGet, flag_skill, , chk_skill_%index%
+    if (flag_skill){
+        mouse_pos_x := 80 + 140 * (index - 1)
+        MouseClick, left, mouse_pos_x, 700
     }
+    sleep 300
 }
 
 is_in_result(){
